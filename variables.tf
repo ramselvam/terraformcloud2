@@ -24,3 +24,19 @@ variable "network_security_group_variable" {
     network_security_group_tags = map(string)
   }))
 }
+
+variable "subscriptionID" {
+  type = string
+}
+
+variable "clientID" {
+  type = string
+}
+
+variable "clientSecret" {
+  type = string
+}
+
+variable "tenantID" {
+  type = string
+}
